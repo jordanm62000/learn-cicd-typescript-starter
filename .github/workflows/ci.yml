@@ -23,6 +23,3 @@ jobs:
 
       - name: Run Tests
         run: npm run test
-
-      - name: Forced Failure
-        run: (exit 1)
