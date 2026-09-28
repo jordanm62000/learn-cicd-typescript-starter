@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getAPIKey } from "./src/api/auth.js";
+import { getAPIKey } from "../api/auth.js";
 
 const headers = {
   authorization: "ApiKey test",
