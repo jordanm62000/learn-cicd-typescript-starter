@@ -22,9 +22,6 @@ jobs:
         run: npm ci
 
       - name: Build
-<<<<<<< HEAD
-        run: npm run build
-=======
         run: npm run build
 
   job_id:
@@ -42,4 +39,3 @@ jobs:
     
     - name: 'Submit Build to Cloud'
       run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/notely-510000/notely-ar-repo/notely:latest .'
->>>>>>> e602e88 (add google cloud deployment action)
